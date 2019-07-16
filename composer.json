@@ -1,0 +1,26 @@
+{
+    "name": "hongxu/laravel-github-storage",
+    "authors": [
+        {
+            "name": "cnBruceHong",
+            "email": "cnbrucehong@icloud.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "knplabs/github-api": "^2.11",
+        "php-http/guzzle6-adapter": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hongxu\\GitHubStorage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hongxu\\GitHubStorage\\StorageServiceProvider"
+            ]
+        }
+    }
+}
